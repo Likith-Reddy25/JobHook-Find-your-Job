@@ -4,6 +4,9 @@
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.13.0",
+    "@fortawesome/fontawesome-svg-core": "^7.1.0",
+    "@fortawesome/free-solid-svg-icons": "^7.1.0",
+    "@fortawesome/react-fontawesome": "^3.1.1",
     "@mantine/carousel": "^7.13.0",
     "@mantine/core": "^7.13.0",
     "@mantine/dates": "^7.13.0",
@@ -26,7 +29,6 @@
     "@tiptap/react": "^2.5.9",
     "@tiptap/starter-kit": "^2.5.9",
     "@types/jest": "^27.5.2",
-    "@types/node": "^16.18.104",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "aos": "^2.3.4",
@@ -70,6 +72,7 @@
     ]
   },
   "devDependencies": {
+    "@types/node": "^25.0.9",
     "@vitejs/plugin-react": "^5.1.2",
     "autoprefixer": "^10.4.23",
     "cross-env": "^7.0.3",
