@@ -43,7 +43,8 @@ public class SecurityConfig {
                                 "/users/register",
                                 "/users/verifyOtp/**",
                                 "/users/sendOtp/**",
-                                "/users/changePass"
+                                "/users/changePass",
+                                "/health/**"
                         ).permitAll()
                         .anyRequest().authenticated()
                 )
