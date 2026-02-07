@@ -1,43 +1,41 @@
-🚀 Job Portal – Full Stack Web Application
-
-A full-stack job portal application that allows recruiters to post jobs and applicants to search and apply for them. Built using Spring Boot, React, and MySQL (AWS RDS) and deployed on Render.
-
-🛠 Tech Stack
-
-Backend: Java, Spring Boot, Spring Data JPA, Hibernate
-Frontend: React, Axios
-Database: MySQL (AWS RDS)
-Deployment: Render
-Authentication: Role-based access control
-
+🚀 Job Portal
+Full Stack Web Application
+<p align="center"> <b>A production-ready Job Portal built using Spring Boot, React & AWS RDS</b> </p>
+🛠️ Tech Stack
+<p> <img src="https://img.shields.io/badge/Backend-Spring%20Boot-brightgreen?style=for-the-badge" /> <img src="https://img.shields.io/badge/Frontend-React-blue?style=for-the-badge" /> <img src="https://img.shields.io/badge/Database-MySQL-orange?style=for-the-badge" /> <img src="https://img.shields.io/badge/Cloud-AWS%20RDS-yellow?style=for-the-badge" /> <img src="https://img.shields.io/badge/Deployment-Render-purple?style=for-the-badge" /> </p>
 ✨ Features
 
-User registration & login
-
-Role-based access (Recruiter / Applicant)
-
-Recruiters can post and manage jobs
-
-Applicants can browse and apply for jobs
-
-Prevents duplicate applications
-
-Secure environment-based configuration
+✔️ User Registration & Login
+✔️ Role-Based Access (Recruiter / Applicant)
+✔️ Post & Manage Jobs
+✔️ Apply to Jobs
+✔️ Duplicate Application Prevention
+✔️ Secure Environment-Based Configuration
 
 ⚙️ Local Setup
-git clone https://github.com/Likith-Reddy25/JobHook-Find-your-Job
+git clone https://github.com/yourusername/job-portal.git
 cd job-portal
 mvn spring-boot:run
 
 
-Configure database in application.properties before running.
+Configure database credentials in application.properties before running.
 
-📌 Key Learnings
+🌍 Deployment
+
+Backend hosted on Render
+
+Database hosted on AWS RDS
+
+📚 What This Project Demonstrates
 
 REST API development with Spring Boot
 
-Database integration with AWS RDS
+JPA & Hibernate integration
 
-Cloud deployment & debugging (Render + RDS)
+Real-world cloud deployment
 
-Secure credential management using environment variables
+Secure DB authentication handling
+
+Full-stack integration (React + Spring Boot)
+
+<p align="center"> Built with 💻 by <b>Likith Reddy</b> </p>
