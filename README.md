@@ -25,7 +25,7 @@ Prevents duplicate applications
 Secure environment-based configuration
 
 ⚙️ Local Setup
-git clone https://github.com/yourusername/job-portal.git
+git clone https://github.com/Likith-Reddy25/JobHook-Find-your-Job
 cd job-portal
 mvn spring-boot:run
 
